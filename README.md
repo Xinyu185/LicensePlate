@@ -89,7 +89,7 @@
 
 这里打包了一个此项目的conda环境，直接使用此conda环境就无需安装任何类库。
 
-点击下载： [打包文件](https://files.xinyu.love/paddle-env.yaml)
+点击下载： [打包文件](https://files.xinyu.love/%E7%8E%AF%E5%A2%83%E4%B8%8E%E5%B7%A5%E5%85%B7/conda/paddle-env.yaml)
 
 :::
 
@@ -105,6 +105,8 @@ conda env list # 查看已有环境
 ```shell
 conda activate paddle-env #切换为此环境
 ```
+
+更多[conda知识](https://note.xinyu.love/pages/3170/#_1-1-%E4%BB%80%E4%B9%88%E7%9A%84conda%E7%8E%AF%E5%A2%83)
 
 #### 4、code(代码)
 
@@ -397,3 +399,11 @@ print("\n车牌识别结果为:",end="")
 for i in range(len(lab)):
     print(LABEL[str(lab[i])],end='')
 ```
+
+### 三、源代码/整个项目
+
+[GitHub地址](https://github.com/Xinyu185/LicensePlate)
+
+[博客地址](https://note.xinyu.love)
+
+务必给个:star:谢谢！:pray:
